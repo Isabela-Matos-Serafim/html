@@ -1,0 +1,24 @@
+img{
+    width: 800px;
+    border-radius: 360px;
+    
+
+}
+header{
+    background-image: url(https://www.civitatis.com/f/reino-unido/londres/guia/distritos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    font-size: 400px;
+    color: white;
+    text-align: center;
+    
+}
+body{
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+div{
+    margin: 70px;
+}
