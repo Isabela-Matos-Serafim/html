@@ -1,0 +1,38 @@
+h1{
+    position: fixed;
+    padding-top: 0%;
+}
+ body {
+      margin: 0;
+      background-image: url(Hermes\ _\ epic\ the\ musical\ _\ wallpaper.jpg);
+      position: relative; 
+      background-size: cover;
+    }
+
+    .caixa {
+      width: 100px;
+      height: 100px;
+      background-color: darkviolet; 
+      position: absolute; 
+      bottom: 0; 
+      right: 0;  
+    }
+    p{
+        color: white;
+    }
+    .caixa2{
+     width: 100px;
+      height: 100px;
+      background-color: darkviolet; 
+      top:0%;
+      right: 50%; 
+      position: sticky;
+    }
+    .caixa3{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 0%;
+    left:30%;
+    background-color: darkviolet;
+}
