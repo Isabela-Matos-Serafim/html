@@ -1,0 +1,71 @@
+body{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    height: 100vh;
+    gap: 10px;
+    grid-template-areas: 
+    "um dois tres"
+    "quatro cinco seis"
+    "sete oito nove"
+    "dez onze doze";
+}
+   .um{
+    background-color: rgb(48, 0, 94);
+    grid-area: um;
+   }
+
+    .dois{
+    background-color: rgb(64, 3, 121);
+    grid-area: dois;
+   }
+    .tres{
+    background-color: rgb(85, 15, 151);
+    grid-area: tres;
+   }
+   .quatro{
+    background-color: rgb(113, 42, 180);
+    grid-area: quatro;
+   }
+    .cinco{
+    background-color: rgb(128, 64, 187);
+    grid-area: cinco;
+   }
+    .seis{
+    background-color: rgb(174, 95, 248);
+    grid-area: seis;
+   }.sete{
+    background-color: rgb(200, 141, 255);
+    grid-area: sete;
+   }
+    .oito{
+    background-color: rgb(215, 172, 255);
+    grid-area: oito;
+   }
+    .nove{
+    background-color: rgb(233, 209, 255);
+    grid-area: nove;
+   }
+   .dez{
+    background-color: rgb(241, 226, 255);
+    grid-area: dez;
+   }
+    .onze{
+    background-color: rgb(240, 224, 255);
+    grid-area: onze;
+   }
+    .doze{
+    background-color: rgb(255, 0, 0);
+    grid-area: doze;
+   }
+
+   div{
+    width: 100px;
+    height: 100px;
+   }
+
+
+
+
