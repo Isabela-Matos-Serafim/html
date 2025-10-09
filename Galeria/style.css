@@ -1,0 +1,41 @@
+body{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    height: 10vh;
+    gap: 5px;
+    grid-template-areas: 
+    "um dois tres"
+    "quatro cinco seis"
+    "sete oito nove";
+}
+    .vermelho{
+        grid-area: um;
+    }
+    .laranja{
+        grid-area: dois;
+    }
+    .amarelo{
+        grid-area: tres;
+    }
+    .verde{
+        grid-area: quatro;
+    }
+    .azul{
+        grid-area: cinco;
+    }
+    .roxo{
+        grid-area: seis;
+    }
+    .rosa{
+        grid-area: sete;
+    }
+    .cinza{
+        grid-area: oito;
+    }
+    .marrom{
+        grid-area: nove;
+    }
+
