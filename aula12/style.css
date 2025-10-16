@@ -1,0 +1,114 @@
+.botao {
+    background-color: palevioletred;
+    transition: background-color 0.3s ease;
+}
+.botao:hover{
+    background-color: greenyellow;
+}
+.farelo {
+    background-color: indigo;
+    color: white;
+    transition: padding 5s;
+}
+.farelo:hover{
+    padding: 50px;
+}
+.botao2oinimigoagoraeoutro {
+    background-color: cyan;
+    color: white;
+    border-color: white;
+    transition-delay: 0.5s;
+    transition: backgronud-color 0.5s;
+}
+.botao2oinimigoagoraeoutro:hover{
+    background-color: greenyellow;
+    color: black;
+    border-color: black;
+}
+.megalomania {
+    background-color: white;
+    color: black;
+    text-align: center;
+    box-shadow: 0 1px 3px black;
+    transition-delay: 0.5s;
+    transition: backgronud-color 0.5s;
+}
+.megalomania:hover{
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    box-shadow: 0 5px 8px black;
+}
+.farofa {
+    background-color: white;
+    color: black;
+    text-align: center;
+    box-shadow: 0 1px 3px black;
+    transition-delay: 1.5s;
+    transition: color 5s;
+}
+.farofa:hover{
+    color: indigo;
+    font-size:large;
+}
+.pepino {
+    background-color: white;
+    color: black;
+    text-align: center;
+    box-shadow: 0 1px 3px black;
+    transition-delay: 0.5s;
+    transition: color 5s;
+}
+.pepino:hover{
+    color: indigo;
+    font-size:large;
+}
+.beteraba {
+    background-color: white;
+    color: black;
+    text-align: center;
+    box-shadow: 0 1px 3px black;
+    transition-delay: 0.5s;
+    transition: color 5s;
+}
+.beteraba:hover{
+    color: indigo;
+    font-size:large;
+}
+img{
+    width: 500px;
+    margin: auto;
+
+}
+img:hover{
+    width: 600px;
+}
+.top{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+.home{
+    color: black;
+    transition: color 3s;
+}
+.home:hover{
+    color: white;
+    text-decoration: underline;
+}
+.sobre{
+    color: black;
+    transition: color 3s;
+}
+.sobre:hover{
+    color: white;
+    text-decoration: underline;
+}
+.contato{
+    color: black;
+    transition: color 3s;
+}
+.contato:hover{
+    color: white;
+    text-decoration: underline;
+}
