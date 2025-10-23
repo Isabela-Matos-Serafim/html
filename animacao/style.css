@@ -1,0 +1,142 @@
+.quadrado{
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    animation-name: cadaumnoseuquadrado;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes cadaumnoseuquadrado{
+    0%{
+   transform: translateX(0);
+    }
+    50%{
+        transform: translateX(456px);
+        background-color: blue;
+    }
+    100%{
+        transform: translateX(0);
+        background-color: yellow;
+    }
+}
+.arcoiris{
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    animation-name: coloridinho;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes coloridinho{
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: yellow;
+    }
+}
+.botao{
+    width: 300px;
+    height: 50px;
+    animation-name: botaoderosa;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-color: gray;
+    color: black;
+}
+@keyframes botaoderosa{
+    0%{
+        background-color: red;
+        color: black;
+        transform: scale(1);
+    }
+    50%{
+        background-color: silver;
+        color: red;
+        transform: scale(1.5);
+    }
+    100%{
+        background-color: red;
+        color: black;
+        transform: scale(1);
+    }
+}
+.coringa{
+    color: red;
+    animation-name: meninarizonhaqrieqsonha;
+     animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes meninarizonhaqrieqsonha{
+    0%{
+        color: red;
+    }
+    50%{
+        color: yellow;
+    }
+    100%{
+        color: blue;
+    }
+}
+.sol{
+    border: 1px solid black;
+}
+.soldoteletubs{
+    animation-name: bomdia;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes bomdia{
+    0%{
+   transform: translateY(0);
+    }
+    50%{
+        transform: translateY(456px);
+        filter: opacity(0%);
+    }
+    100%{
+        transform: translateY(0);
+    }}
+
+.coracao{
+    height: 1000px;
+    animation-duration: 6s;
+    animation-name: batimento;
+    animation-iteration-count: infinite;
+}
+@keyframes batimento{
+    0%{
+        height: 900px;
+    }
+    50%{
+        height: 1000px;
+    }
+    100%{
+        height: 900px;
+    }
+}
+.texto{
+    animation-name: flutuamento;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    font-size: xx-large;
+    color: black;
+}
+@keyframes flutuamento{
+    0%{
+        transform: translateX(0);
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateX(34px);
+        transform: translateY(34px);
+    }
+    100%{
+        transform: translateX(0);
+        transform: translateY(0);
+    }
+
+}
