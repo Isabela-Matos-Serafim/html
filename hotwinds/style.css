@@ -64,7 +64,7 @@ img{
   height: auto;
   border-radius: 10px;
   transition:filter 3s;
-  filter: grayscale(100%);
+  filter: grayscale(0%);
 }
 .Mafufu img:hover{
     filter: grayscale(100%)
@@ -94,4 +94,5 @@ img{
 }
 .exerciciosete button:active{
     transform: scale(0.5);
+
 }
